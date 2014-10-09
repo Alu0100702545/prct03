@@ -12,4 +12,31 @@ hello World
 helloworld.rb(main):002:0> 
 fabix@FabixDiaz:~$ 
 
-La diferencia es que te ejecuta cada linea con pry y ejecuta cada linea y luego sale del programa 
+La diferencia es que te ejecuta cada linea con pry y ejecuta cada linea y luego sale del programa
+
+pregunta 26:
+[1] pry(main)> puts x
+10
+=> nil
+[2] pry(main)> def hello
+[2] pry(main)*   puts "hello world"
+[2] pry(main)* end  
+=> nil
+[3] pry(main)> hello
+hello world
+=> nil
+[4] pry(main)> byebye
+bye bye world!!!
+=> nil
+[5] pry(main)> x ="changed"
+=> "changed"
+[6] pry(main)> exit
+program resumes here. Value of x is: changed.
+
+
+Pregunta 27 :
+
+Pry es igual que irb, es decir es un inteprete y ejecuta una linea de codigo y te da el resultado pero 
+ademas te da la posibilidad de introducir fichero con la linea required 'pry' y te lo ejecuta hasta que llegue
+a la linea binding.pry la cual hace que puedas utilizar varibles y funciones declaradas dentro de pry y cuando le das a exit es cuando
+se ejecuta las demas lineas y sale de pry
