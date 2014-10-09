@@ -1,3 +1,12 @@
+Practica 3 :Lenguajes y Paradigmas de Programacion
+
+Primeros pasos ruby
+
+Fabián Díaz Lorenzo
+
+alu0100702545@ull.edu.es
+
+
 Pregunta 18:
 
 irb(main):001:0> puts "Hello World"
@@ -39,4 +48,4 @@ Pregunta 27 :
 Pry es igual que irb, es decir es un inteprete y ejecuta una linea de codigo y te da el resultado pero 
 ademas te da la posibilidad de introducir fichero con la linea required 'pry' y te lo ejecuta hasta que llegue
 a la linea binding.pry la cual hace que puedas utilizar varibles y funciones declaradas dentro de pry y cuando le das a exit es cuando
-se ejecuta las demas lineas y sale de pry
+se ejecuta las demas lineas y sale de pry.
