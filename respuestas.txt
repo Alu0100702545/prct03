@@ -1,0 +1,15 @@
+Pregunta 18:
+
+irb(main):001:0> puts "Hello World"
+Hello World
+=> nil
+irb(main):002:0> 
+
+Pregunta 20: 
+helloworld.rb(main):001:0> puts "hello World"
+hello World
+=> nil
+helloworld.rb(main):002:0> 
+fabix@FabixDiaz:~$ 
+
+La diferencia es que te ejecuta cada linea con pry y ejecuta cada linea y luego sale del programa 
